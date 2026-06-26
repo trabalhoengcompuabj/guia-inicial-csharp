@@ -19,7 +19,7 @@ class Programa{
         else if (nota >= 5){
              Console.WriteLine("Voce esta de recuperaçao");
         }
-        //Exemplo de uma condicional else (senão)
+        //Exemplo de uma condicional else ("senão")
         else{
              Console.WriteLine("Voce esta reprovado");
             }
