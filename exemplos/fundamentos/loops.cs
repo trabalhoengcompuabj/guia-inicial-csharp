@@ -29,7 +29,16 @@ public class Loops
         {
             Console.WriteLine(contagem);
             contagem = contagem + 1;
-
+            
         } while (contagem <= 10);
+
+        // Exemplo do loop foreach
+        // Executa o código para cada elemento de um array ou lista
+        string[] frutas = {"Uva", "Banana", "Laranja"};
+
+        foreach (string fruta in frutas)
+        {
+            Console.WriteLine(fruta);
+        }
     }
 }
