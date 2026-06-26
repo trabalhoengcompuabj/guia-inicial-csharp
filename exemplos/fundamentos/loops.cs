@@ -12,7 +12,7 @@ public class Loops
         }
 
         // Exemplo do loop while
-        // LEMBRAR DE POR EXPLICAÇÃO AQUI DEPOIS!!!!!!!
+        // Executa o código enquanto a condição for atendida
         int regressivo = 10;
 
         while (regressivo >= 0) 
@@ -20,5 +20,16 @@ public class Loops
             Console.WriteLine(regressivo);
             regressivo = regressivo - 1;
         }
+
+        // Exemplo do loop do-while
+        // Executa o código pelo menos uma vez antes de testar a condição
+        int contagem = 0;
+
+        do
+        {
+            Console.WriteLine(contagem);
+            contagem = contagem + 1;
+
+        } while (contagem <= 10);
     }
 }
