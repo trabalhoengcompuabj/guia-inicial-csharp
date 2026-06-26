@@ -10,5 +10,15 @@ public class Loops
         {
             Console.WriteLine(numero);
         }
+
+        // Exemplo do loop while
+        // LEMBRAR DE POR EXPLICAÇÃO AQUI DEPOIS!!!!!!!
+        int regressivo = 10;
+
+        while (regressivo >= 0) 
+        {
+            Console.WriteLine(regressivo);
+            regressivo = regressivo - 1;
+        }
     }
 }
