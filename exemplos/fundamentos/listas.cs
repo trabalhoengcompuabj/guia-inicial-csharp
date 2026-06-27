@@ -21,7 +21,7 @@ class Listas
 
         // Modificar valores através do índice
         // OBS.: O primeiro elemento começa em índice zero
-        jogos[0] = "Minecraft";
+        jogos[0] = "Minecraft";                             // Índice 0 = Primeiro Elemento
 
 
 
@@ -45,7 +45,7 @@ class Listas
 
 
 
-        // Reorganiza a lista na ordem inversa
+        // Reorganizar a lista na ordem inversa
         jogos.Reverse();
 
 
@@ -61,12 +61,17 @@ class Listas
 
 
         // Remover elemento da lista através do índice
-        jogos.RemoveAt(1);
+        jogos.RemoveAt(1);                              // Índice 1 = Segundo Elemento
 
 
 
         // Transformar a lista em um array
         string[] jogosArray = jogos.ToArray();
+
+
+
+        // Visualizar um elemento específico da lista
+        Console.WriteLine(jogos[0]);                     // Índice 0 = Primeiro Elemento
 
 
         
@@ -79,6 +84,7 @@ class Listas
 
 
         // Limpar todos os elementos de uma lista
+        // Eles são todos removidos
         jogos.Clear();
     }
 }
