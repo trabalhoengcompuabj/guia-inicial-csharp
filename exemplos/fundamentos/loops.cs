@@ -1,8 +1,6 @@
-using System;
-
-public class Loops
+class Loops
 {
-    public static void Main(string[] args)
+    static void Main()
     {
         // Exemplo do loop for
         // Executa o código por uma quantidade de vezes definida
