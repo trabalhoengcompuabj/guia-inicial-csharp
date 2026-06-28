@@ -1,5 +1,3 @@
-using System;
-
 /*
 Imagine a classe como um "molde", ela define as características (atributos)
 e os comportamentos (métodos) que os objetos criados a partir dela terão, esse

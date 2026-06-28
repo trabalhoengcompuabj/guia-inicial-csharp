@@ -1,5 +1,3 @@
-using System;
-
 //Programa que usa condicionais para saber a situação de um aluno de acordo com a nota
 class Programa{
     static void Main(){
