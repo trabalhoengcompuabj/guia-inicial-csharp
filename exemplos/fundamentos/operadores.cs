@@ -34,6 +34,8 @@ class operadores{
         int decremento = 1;
         decremento--;
 
+
+        
         //Operadores de Atribuicao:
         //Servem para atribuir valores a variaveis, eles pegam o valor da direita e colocam na variavel da esquerda.
         //O operador = atribui o valor da direita a variavel da esquerda.
