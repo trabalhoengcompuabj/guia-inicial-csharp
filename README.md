@@ -72,6 +72,7 @@ As instruções abaixo mostram como instalar o **.NET SDK** (que inclui o compil
 - Site do Visual Studio Code (documentação e download).  
 - Licença MIT no OpenSource.org.
 - C#: Entendendo Variáveis e Tipos Primitivos (Rockseat).
+- Tipos de Operadores do C# (DevMedia).
 
 Estas referências serviram para embasar definições, sintaxe e orientações de instalação. As instruções aqui compiladas são de livre adaptação do material oficial, visando clareza para iniciantes em C#.
 
