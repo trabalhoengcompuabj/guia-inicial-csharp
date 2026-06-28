@@ -70,7 +70,8 @@ As instruções abaixo mostram como instalar o **.NET SDK** (que inclui o compil
 - Guia C# no Microsoft Learn (pt-BR).  
 - Página “O que você pode criar com C#” (Microsoft).  
 - Site do Visual Studio Code (documentação e download).  
-- Licença MIT no OpenSource.org.  
+- Licença MIT no OpenSource.org.
+- C#: Entendendo Variáveis e Tipos Primitivos (Rockseat).
 
 Estas referências serviram para embasar definições, sintaxe e orientações de instalação. As instruções aqui compiladas são de livre adaptação do material oficial, visando clareza para iniciantes em C#.
 
