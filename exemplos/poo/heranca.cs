@@ -25,7 +25,7 @@ class Ventilador : Eletrodomestico
 }
 
 
-class Herança
+class Heranca
 {
     static void Main()
     {
