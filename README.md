@@ -228,7 +228,32 @@ bool logico_ou = (true || false); // O || exige que PELO MENOS UM seja verdadeir
 bool logico_nao = !true;          // O ! inverte o resultado (true vira false)
 
 ```
+# Tabela com todos os operadores:
 
+| Categoria | Operador | Descrição | Exemplo | Resultado |
+| :--- | :---: | :--- | :--- | :--- |
+| **Aritméticos** | `+` | Soma valores ou concatena strings | `5 + 3` | `8` |
+| | `-` | Subtrai valores | `10 - 4` | `6` |
+| | `*` | Multiplica valores | `3 * 4` | `12` |
+| | `/` | Divide valores | `10 / 2` | `5` |
+| | `%` | Resto da divisão (Módulo) | `5 % 2` | `1` |
+| | `++` | Incremento (soma 1) | `x++` | Aumenta `x` em 1 |
+| | `--` | Decremento (subtrai 1) | `x--` | Diminui `x` em 1 |
+| **Atribuição** | `=` | Atribui um valor | `x = 10` | `x` passa a ser 10 |
+| | `+=` | Soma e atribui | `x += 5` | Igual a `x = x + 5` |
+| | `-=` | Subtrai e atribui | `x -= 3` | Igual a `x = x - 3` |
+| **Comparação** | `==` | Igual a | `5 == 5` | `true` |
+| | `!=` | Diferente de | `5 != 3` | `true` |
+| | `>` | Maior que | `10 > 20` | `false` |
+| | `<` | Menor que | `10 < 20` | `true` |
+| | `>=` | Maior ou igual a | `5 >= 5` | `true` |
+| | `<=` | Menor ou igual a | `4 <= 2` | `false` |
+| **Lógicos** | `&&` | Operador E (AND) | `true && false` | `false` |
+| | `\|\|` | Operador OU (OR) | `true \|\| false` | `true` |
+| | `!` | Operador NÃO (NOT) | `!true` | `false` |
+| **Especiais** | `? :` | Condicional Ternário | `(x > 5) ? "Sim" : "Não"`| Retorna "Sim" se x > 5 |
+| | `?.` | Navegação Segura (Null-conditional) | `obj?.Nome` | Acessa se `obj` não for nulo |
+| | `??` | Coalescência Nula | `nome ?? "Anônimo"` | Usa "Anônimo" se `nome` for nulo |
 ### Estruturas Condicionais
 
 É aqui que o programa começa a tomar decisões e criar caminhos diferentes com base em avaliações lógicas.
