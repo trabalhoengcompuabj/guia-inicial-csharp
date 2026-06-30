@@ -75,6 +75,7 @@ namespace C_
         }
 
         // Exemplo não-static: Funciona igual aos de cima, mas precisa instanciar com 'new'.
+        //
         public string GetCity()
         {
             return "Belo Jardim";
